@@ -1,24 +1,21 @@
 #pragma once
 #include "Smasher.h"
 
-class Humain : public Smasher{
+class Elf : public Smasher{
 public:
 	int Size;
 	int Weight;
 
-	Humain();
+	Elf();
 
-	Humain(int _size, int _weight);
+	Elf(int _size, int _weight);
 
-	virtual ~Humain() override;
-	
+	virtual ~Elf();
+
 	virtual float MeleeBuff() override;
 
 	virtual float MagicBuff() override;
 
 	virtual float ResistanceBuff() override;
-
-	
-
 };
 

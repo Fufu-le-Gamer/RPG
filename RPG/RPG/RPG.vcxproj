@@ -123,14 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Elfe.cpp" />
+    <ClCompile Include="Elf.cpp" />
     <ClCompile Include="Humain.cpp" />
+    <ClCompile Include="Nain.cpp" />
+    <ClCompile Include="Orc.cpp" />
     <ClCompile Include="Smasher.cpp" />
     <ClCompile Include="RPG.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Elfe.h" />
+    <ClInclude Include="Elf.h" />
     <ClInclude Include="Humain.h" />
+    <ClInclude Include="Nain.h" />
+    <ClInclude Include="Orc.h" />
     <ClInclude Include="Smasher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
