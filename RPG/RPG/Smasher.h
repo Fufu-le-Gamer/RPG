@@ -1,6 +1,12 @@
 #pragma once
+#include <iostream>
+#include <string>
+
 class Smasher
 {
+protected:
+	std::string SmasherName;
+
 public:
 	Smasher();
 
@@ -11,5 +17,7 @@ public:
 	virtual float MagicBuff() = 0;
 
 	virtual float ResistanceBuff() = 0;
+
+	virtual void DisplayStats();
 };
 

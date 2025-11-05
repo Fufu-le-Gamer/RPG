@@ -123,19 +123,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="Assassin.cpp" />
     <ClCompile Include="Elf.cpp" />
     <ClCompile Include="Humain.cpp" />
+    <ClCompile Include="Mage.cpp" />
     <ClCompile Include="Nain.cpp" />
     <ClCompile Include="Orc.cpp" />
     <ClCompile Include="Smasher.cpp" />
     <ClCompile Include="RPG.cpp" />
+    <ClCompile Include="Voleur.cpp" />
+    <ClCompile Include="Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="Assassin.h" />
     <ClInclude Include="Elf.h" />
     <ClInclude Include="Humain.h" />
+    <ClInclude Include="Mage.h" />
     <ClInclude Include="Nain.h" />
     <ClInclude Include="Orc.h" />
     <ClInclude Include="Smasher.h" />
+    <ClInclude Include="Voleur.h" />
+    <ClInclude Include="Warrior.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

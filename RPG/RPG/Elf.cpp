@@ -2,6 +2,7 @@
 
 Elf::Elf()
 {
+	SmasherName = "Elf";
 	Size = 106;
 	Weight = 50;
 }

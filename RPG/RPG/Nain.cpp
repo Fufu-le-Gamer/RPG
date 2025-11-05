@@ -2,6 +2,7 @@
 
 Nain::Nain()
 {
+	SmasherName = "Nain";
 	Size = 90;
 	Weight = 24;
 }

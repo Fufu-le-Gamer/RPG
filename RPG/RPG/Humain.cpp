@@ -2,6 +2,7 @@
 
 Humain::Humain() 
 {
+	SmasherName = "Humain";
 	Size = 180;
 	Weight = 75;
 }

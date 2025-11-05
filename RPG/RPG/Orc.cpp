@@ -2,6 +2,7 @@
 
 Orc::Orc()
 {
+	SmasherName = "Orc";
 	Size = 220;
 	Weight = 210;
 }
