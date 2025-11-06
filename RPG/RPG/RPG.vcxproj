@@ -125,27 +125,43 @@
   <ItemGroup>
     <ClCompile Include="Archer.cpp" />
     <ClCompile Include="Assassin.cpp" />
+    <ClCompile Include="Elder_Wand.cpp" />
     <ClCompile Include="Elf.cpp" />
+    <ClCompile Include="Excalibure.cpp" />
+    <ClCompile Include="Hawkeye_Bow.cpp" />
     <ClCompile Include="Humain.cpp" />
+    <ClCompile Include="Ingénieur.cpp" />
+    <ClCompile Include="Legolas_Bow.cpp" />
+    <ClCompile Include="Lightning_spell.cpp" />
     <ClCompile Include="Mage.cpp" />
     <ClCompile Include="Nain.cpp" />
+    <ClCompile Include="Netherite_Sword.cpp" />
     <ClCompile Include="Orc.cpp" />
     <ClCompile Include="Smasher.cpp" />
     <ClCompile Include="RPG.cpp" />
     <ClCompile Include="Voleur.cpp" />
     <ClCompile Include="Warrior.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Archer.h" />
     <ClInclude Include="Assassin.h" />
+    <ClInclude Include="Elder_Wand.h" />
     <ClInclude Include="Elf.h" />
+    <ClInclude Include="Excalibure.h" />
+    <ClInclude Include="Hawkeye_Bow.h" />
     <ClInclude Include="Humain.h" />
+    <ClInclude Include="Ingénieur.h" />
+    <ClInclude Include="Legolas_Bow.h" />
+    <ClInclude Include="Lightning_spell.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="Nain.h" />
+    <ClInclude Include="Netherite_Sword.h" />
     <ClInclude Include="Orc.h" />
     <ClInclude Include="Smasher.h" />
     <ClInclude Include="Voleur.h" />
     <ClInclude Include="Warrior.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

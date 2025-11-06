@@ -1,2 +1,5 @@
-﻿  RPG.cpp
+﻿  Netherite_Sword.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\Netherite_Sword.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  (compiler le fichier source 'Netherite_Sword.cpp')
+  
   RPG.vcxproj -> C:\Users\yducrocq\Documents\GitHub\RPG\RPG\x64\Debug\RPG.exe

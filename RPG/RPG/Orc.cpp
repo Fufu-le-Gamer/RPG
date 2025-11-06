@@ -11,11 +11,17 @@ Orc::Orc(int _size, int _weight)
 {
 	Size = _size;
 	Weight = _weight;
+	SmasherName = "Orc";
 }
 
 Orc::~Orc()
 {
 
+}
+
+float Orc::PV()
+{
+	return 200;
 }
 
 float Orc::MeleeBuff()
@@ -28,7 +34,7 @@ float Orc::MagicBuff()
 	return 0.5f;
 }
 
-float Orc::ResistanceBuff()
+float Orc::DefenceBuff()
 {
 	return 2;
 }

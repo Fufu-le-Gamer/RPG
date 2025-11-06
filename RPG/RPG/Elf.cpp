@@ -11,11 +11,17 @@ Elf::Elf(int _size, int _weight)
 {
 	Size = _size;
 	Weight = _weight;
+	SmasherName = "Elf";
 }
 
 Elf::~Elf()
 {
 
+}
+
+float Elf::PV()
+{
+	return 80;
 }
 
 float Elf::MeleeBuff()
@@ -28,7 +34,7 @@ float Elf::MagicBuff()
 	return 2;
 }
 
-float Elf::ResistanceBuff()
+float Elf::DefenceBuff()
 {
 	return 1;
 }

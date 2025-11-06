@@ -12,11 +12,13 @@ public:
 
 	virtual ~Smasher();
 
+	virtual float PV() = 0;
+
 	virtual float MeleeBuff() = 0;
 
 	virtual float MagicBuff() = 0;
 
-	virtual float ResistanceBuff() = 0;
+	virtual float DefenceBuff() = 0;
 
 	virtual void DisplayStats();
 };

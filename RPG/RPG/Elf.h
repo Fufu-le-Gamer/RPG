@@ -12,10 +12,12 @@ public:
 
 	virtual ~Elf();
 
+	virtual float PV() override;
+
 	virtual float MeleeBuff() override;
 
 	virtual float MagicBuff() override;
 
-	virtual float ResistanceBuff() override;
+	virtual float DefenceBuff() override;
 };
 

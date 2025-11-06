@@ -11,11 +11,17 @@ Humain::Humain(int _size, int _weight)
 {
 	Size = _size;
 	Weight = _weight;
+	SmasherName = "Humain";
 }
 
 Humain::~Humain()
 {
 
+}
+
+float Humain::PV()
+{
+	return 100;
 }
 
 float Humain::MeleeBuff()
@@ -28,7 +34,7 @@ float Humain::MagicBuff()
 	return 1;
 }
 
-float Humain::ResistanceBuff()
+float Humain::DefenceBuff()
 {
 	return 1;
 }

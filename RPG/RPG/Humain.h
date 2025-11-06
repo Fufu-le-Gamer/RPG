@@ -11,12 +11,14 @@ public:
 	Humain(int _size, int _weight);
 
 	virtual ~Humain() override;
+
+	virtual float PV() override;
 	
 	virtual float MeleeBuff() override;
 
 	virtual float MagicBuff() override;
 
-	virtual float ResistanceBuff() override;
+	virtual float DefenceBuff() override;
 
 	
 

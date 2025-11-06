@@ -11,11 +11,17 @@ Nain::Nain(int _size, int _weight)
 {
 	Size = _size;
 	Weight = _weight;
+	SmasherName = "Nain";
 }
 
 Nain::~Nain()
 {
 
+}
+
+float Nain::PV()
+{
+	return 50;
 }
 
 float Nain::MeleeBuff()
@@ -28,7 +34,7 @@ float Nain::MagicBuff()
 	return 1;
 }
 
-float Nain::ResistanceBuff()
+float Nain::DefenceBuff()
 {
 	return 0.5f;
 }
