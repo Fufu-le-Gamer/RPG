@@ -1,7 +1,7 @@
 #pragma once
-#include "Weapon.h"
+#include "MageWeapon.h"
 
-class Elder_Wand : public SmasherWeapon{
+class Elder_Wand : public MageWeapon{
 public:
 	Elder_Wand();
 

@@ -2,7 +2,7 @@
 
 Netherite_Sword::Netherite_Sword()
 {
-
+	WeaponName = "Netherite Sword";
 }
 
 Netherite_Sword::~Netherite_Sword()
@@ -10,7 +10,7 @@ Netherite_Sword::~Netherite_Sword()
 
 }
 
-float Netherite_Sword::MeleeDamage()
+float Netherite_Sword::PhysicDamage()
 {
-	return 9;
+	return 10;
 }

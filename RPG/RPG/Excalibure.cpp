@@ -2,7 +2,7 @@
 
 Excalibure::Excalibure()
 {
-
+	WeaponName = "Excalibure";
 }
 
 Excalibure::~Excalibure()
@@ -10,7 +10,7 @@ Excalibure::~Excalibure()
 
 }
 
-float Excalibure::MeleeDamage()
+float Excalibure::PhysicDamage()
 {
 	return 50;
 }

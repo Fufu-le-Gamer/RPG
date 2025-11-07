@@ -2,7 +2,7 @@
 
 Hawkeye_Bow::Hawkeye_Bow()
 {
-
+	WeaponName = "Hawkeye Bow";
 }
 
 Hawkeye_Bow::~Hawkeye_Bow()

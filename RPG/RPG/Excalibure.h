@@ -1,12 +1,12 @@
 #pragma once
-#include "Weapon.h"
+#include "WarriorWeapon.h"
 
-class Excalibure : public SmasherWeapon{
+class Excalibure : public WarriorWeapon{
 public:
 	Excalibure();
 
 	~Excalibure();
 
-	virtual float MeleeDamage() override;
+	virtual float PhysicDamage() override;
 };
 

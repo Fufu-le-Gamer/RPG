@@ -1,12 +1,12 @@
 #pragma once
-#include "Weapon.h";
+#include "WarriorWeapon.h"
 
-class Netherite_Sword : public SmasherWeapon{
+class Netherite_Sword : public WarriorWeapon{
 public:
 	Netherite_Sword();
 
 	~Netherite_Sword();
 	
-	virtual float MeleeDamage() override;
+	virtual float PhysicDamage() override;
 };
 

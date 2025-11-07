@@ -1,5 +1,50 @@
-﻿  Netherite_Sword.cpp
-C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\Netherite_Sword.h(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  (compiler le fichier source 'Netherite_Sword.cpp')
+﻿  ArcherWeapon.cpp
+  AssassinWeapon.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\ArcherWeapon.cpp(8,16): error C2084: la fonction 'ArcherWeapon::~ArcherWeapon(void)' a déjà un corps
+      C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\ArcherWeapon.h(11,11):
+      voir la définition précédente de '{dtor}'
   
-  RPG.vcxproj -> C:\Users\yducrocq\Documents\GitHub\RPG\RPG\x64\Debug\RPG.exe
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\ArcherWeapon.cpp(16,41): error C3867: 'ArcherWeapon::ArrowDamage' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\AssassinWeapon.cpp(8,18): error C2084: la fonction 'AssassinWeapon::~AssassinWeapon(void)' a déjà un corps
+      C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\AssassinWeapon.h(10,11):
+      voir la définition précédente de '{dtor}'
+  
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\AssassinWeapon.cpp(16,42): error C3867: 'AssassinWeapon::PhysicDamage' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+  Excalibure.cpp
+  Hawkeye_Bow.cpp
+  Hidden_Blade_Aguilar.cpp
+  Humain.cpp
+  IngenieurWeapon.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\IngenieurWeapon.cpp(8,19): error C2084: la fonction 'IngenieurWeapon::~IngenieurWeapon(void)' a déjà un corps
+      C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\IngenieurWeapon.h(11,11):
+      voir la définition précédente de '{dtor}'
+  
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\IngenieurWeapon.cpp(16,42): error C3867: 'IngenieurWeapon::TechnoDamage' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+  Iron_Man_Repulsor_Gauntlet.cpp
+  Legolas_Bow.cpp
+  Lightning_spell.cpp
+  MageWeapon.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\MageWeapon.cpp(9,14): error C2084: la fonction 'MageWeapon::~MageWeapon(void)' a déjà un corps
+      C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\MageWeapon.h(11,11):
+      voir la définition précédente de '{dtor}'
+  
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\MageWeapon.cpp(17,41): error C3867: 'MageWeapon::MagicDamage' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+  Nain.cpp
+  Netherite_Sword.cpp
+  Smasher.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\Smasher.cpp(13,32): error C3867: 'Smasher::PV' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+  RPG.cpp
+  VoleurWeapon.cpp
+  WarriorWeapon.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\WarriorWeapon.cpp(8,17): error C2084: la fonction 'WarriorWeapon::~WarriorWeapon(void)' a déjà un corps
+      C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\WarriorWeapon.h(11,11):
+      voir la définition précédente de '{dtor}'
+  
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\WarriorWeapon.cpp(16,42): error C3867: 'WarriorWeapon::PhysicDamage' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+  Weapon.cpp
+C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\Weapon.cpp(9,17): error C2084: la fonction 'SmasherWeapon::~SmasherWeapon(void)' a déjà un corps
+      C:\Users\yducrocq\Documents\GitHub\RPG\RPG\RPG\Weapon.h(13,11):
+      voir la définition précédente de '{dtor}'
+  
+  Yasuke_Long_Katana.cpp
+  Génération de code en cours...

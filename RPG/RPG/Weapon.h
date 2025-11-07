@@ -5,21 +5,13 @@
 class SmasherWeapon
 {
 protected:
-	std::string WeaponName;
+	std::string TypeName;
 
 public:
 	SmasherWeapon();
 
-	~SmasherWeapon();
+	virtual ~SmasherWeapon() = default;
 
-	virtual float MeleeDamage() = 0;
-
-	virtual float MagicDamage() = 0;
-	
-	virtual float ArrowDamage() = 0;
-	
-	virtual float TechnoDamage() = 0;
-
-	virtual void DisplayWeapon();
+	virtual void DisplayType();
 };
 

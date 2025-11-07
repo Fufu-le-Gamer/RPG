@@ -1,7 +1,7 @@
 #pragma once
-#include "Weapon.h"
+#include "ArcherWeapon.h"
 
-class Hawkeye_Bow : public SmasherWeapon{
+class Hawkeye_Bow : public ArcherWeapon{
 public:
 	Hawkeye_Bow();
 

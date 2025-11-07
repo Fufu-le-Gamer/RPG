@@ -1,19 +1,19 @@
 #include "Weapon.h"
+#include <iostream>
 
 SmasherWeapon::SmasherWeapon()
 {
 
 }
 
-SmasherWeapon::~SmasherWeapon() = default;
-
-void SmasherWeapon::DisplayWeapon()
+SmasherWeapon::~SmasherWeapon()
 {
-    std::cout << "Weapon : " << WeaponName << "\n";
-    std::cout << "Melee Type : " << MeleeDamage() << "\n";
-    std::cout << "Magic Type : " << MagicDamage() << "\n";
-    std::cout << "Distance Type : " << ArrowDamage() << "\n";
-    std::cout << "Resistance Type : " << TechnoDamage() << "\n";
+
+}
+
+void SmasherWeapon::DisplayType()
+{
+    std::cout << "Weapons of " << TypeName << "\n";
 }
 
 

@@ -2,7 +2,7 @@
 
 Elder_Wand::Elder_Wand()
 {
-
+	WeaponName = "Elder Wand";
 }
 
 Elder_Wand::~Elder_Wand()

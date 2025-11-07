@@ -1,6 +1,6 @@
 #pragma once
-#include "Weapon.h"
-class Legolas_Bow : public SmasherWeapon{
+#include "ArcherWeapon.h"
+class Legolas_Bow : public ArcherWeapon{
 public:
 	Legolas_Bow();
 

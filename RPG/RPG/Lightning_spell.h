@@ -1,7 +1,7 @@
 #pragma once
-#include "Weapon.h"
+#include "MageWeapon.h"
 
-class Lightning_spell : public SmasherWeapon{
+class Lightning_spell : public MageWeapon{
 public:	
 	Lightning_spell();
 

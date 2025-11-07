@@ -124,44 +124,63 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="ArcherWeapon.cpp" />
     <ClCompile Include="Assassin.cpp" />
+    <ClCompile Include="AssassinWeapon.cpp" />
+    <ClCompile Include="Doctor_Who_Sonic_Screwdriver.cpp" />
     <ClCompile Include="Elder_Wand.cpp" />
     <ClCompile Include="Elf.cpp" />
     <ClCompile Include="Excalibure.cpp" />
     <ClCompile Include="Hawkeye_Bow.cpp" />
+    <ClCompile Include="Hidden_Blade_Aguilar.cpp" />
     <ClCompile Include="Humain.cpp" />
-    <ClCompile Include="Ingénieur.cpp" />
+    <ClCompile Include="IngenieurWeapon.cpp" />
+    <ClCompile Include="Iron_Man_Repulsor_Gauntlet.cpp" />
     <ClCompile Include="Legolas_Bow.cpp" />
     <ClCompile Include="Lightning_spell.cpp" />
     <ClCompile Include="Mage.cpp" />
+    <ClCompile Include="MageWeapon.cpp" />
     <ClCompile Include="Nain.cpp" />
     <ClCompile Include="Netherite_Sword.cpp" />
     <ClCompile Include="Orc.cpp" />
     <ClCompile Include="Smasher.cpp" />
     <ClCompile Include="RPG.cpp" />
     <ClCompile Include="Voleur.cpp" />
+    <ClCompile Include="VoleurWeapon.cpp" />
     <ClCompile Include="Warrior.cpp" />
+    <ClCompile Include="WarriorWeapon.cpp" />
     <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Yasuke_Long_Katana.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Archer.h" />
+    <ClInclude Include="ArcherWeapon.h" />
     <ClInclude Include="Assassin.h" />
+    <ClInclude Include="AssassinWeapon.h" />
+    <ClInclude Include="Doctor_Who_Sonic_Screwdriver.h" />
     <ClInclude Include="Elder_Wand.h" />
     <ClInclude Include="Elf.h" />
     <ClInclude Include="Excalibure.h" />
     <ClInclude Include="Hawkeye_Bow.h" />
+    <ClInclude Include="Hidden_Blade_Aguilar.h" />
     <ClInclude Include="Humain.h" />
+    <ClInclude Include="IngenieurWeapon.h" />
     <ClInclude Include="Ingénieur.h" />
+    <ClInclude Include="Iron_Man_Repulsor_Gauntlet.h" />
     <ClInclude Include="Legolas_Bow.h" />
     <ClInclude Include="Lightning_spell.h" />
     <ClInclude Include="Mage.h" />
+    <ClInclude Include="MageWeapon.h" />
     <ClInclude Include="Nain.h" />
     <ClInclude Include="Netherite_Sword.h" />
     <ClInclude Include="Orc.h" />
     <ClInclude Include="Smasher.h" />
     <ClInclude Include="Voleur.h" />
+    <ClInclude Include="VoleurWeapon.h" />
     <ClInclude Include="Warrior.h" />
+    <ClInclude Include="WarriorWeapon.h" />
     <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Yasuke_Long_Katana.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

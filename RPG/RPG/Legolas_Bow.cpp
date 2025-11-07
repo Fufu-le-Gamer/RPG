@@ -2,7 +2,7 @@
 
 Legolas_Bow::Legolas_Bow()
 {
-
+	WeaponName = "Legolas Bow";
 }
 
 Legolas_Bow::~Legolas_Bow()
