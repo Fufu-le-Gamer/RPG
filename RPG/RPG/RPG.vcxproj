@@ -133,6 +133,7 @@
     <ClCompile Include="Excalibure.cpp" />
     <ClCompile Include="Hawkeye_Bow.cpp" />
     <ClCompile Include="Hidden_Blade_Aguilar.cpp" />
+    <ClCompile Include="Hollow_Knight_Dagger.cpp" />
     <ClCompile Include="Humain.cpp" />
     <ClCompile Include="IngenieurWeapon.cpp" />
     <ClCompile Include="Iron_Man_Repulsor_Gauntlet.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="Excalibure.h" />
     <ClInclude Include="Hawkeye_Bow.h" />
     <ClInclude Include="Hidden_Blade_Aguilar.h" />
+    <ClInclude Include="Hollow_Knight_Dagger.h" />
     <ClInclude Include="Humain.h" />
     <ClInclude Include="IngenieurWeapon.h" />
     <ClInclude Include="Ingénieur.h" />
