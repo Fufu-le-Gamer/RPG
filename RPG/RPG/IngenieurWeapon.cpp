@@ -3,17 +3,14 @@
 IngenieurWeapon::IngenieurWeapon()
 {
 	TypeName = "Ingénieur";
+	WeaponName = "Arme inconnue";
 }
 
-IngenieurWeapon::~IngenieurWeapon()
+void IngenieurWeapon::DisplayIngenieurWeapon()
 {
-
-}
-
-void IngenieurWeapon::DisplayIngenigneurWeapon()
-{
-	std::cout << "Weapon choose" << WeaponName << "\n";
-	std::cout << "Damage :" << TechnoDamage << "\n";
+	std::cout << "Weapons of " << TypeName << "\n";
+	std::cout << "Weapon choose : " << WeaponName << "\n";
+	std::cout << "Damage : " << TechnoDamage() << "\n";
 }
 
 

@@ -132,10 +132,12 @@
     <ClCompile Include="Elf.cpp" />
     <ClCompile Include="Excalibure.cpp" />
     <ClCompile Include="Hawkeye_Bow.cpp" />
+    <ClCompile Include="Hello_Neighbor_Crowbar.cpp" />
     <ClCompile Include="Hidden_Blade_Aguilar.cpp" />
     <ClCompile Include="Hollow_Knight_Dagger.cpp" />
     <ClCompile Include="Humain.cpp" />
     <ClCompile Include="IngenieurWeapon.cpp" />
+    <ClCompile Include="Ingenieur.cpp" />
     <ClCompile Include="Iron_Man_Repulsor_Gauntlet.cpp" />
     <ClCompile Include="Legolas_Bow.cpp" />
     <ClCompile Include="Lightning_spell.cpp" />
@@ -146,6 +148,7 @@
     <ClCompile Include="Orc.cpp" />
     <ClCompile Include="Smasher.cpp" />
     <ClCompile Include="RPG.cpp" />
+    <ClCompile Include="Type.cpp" />
     <ClCompile Include="Voleur.cpp" />
     <ClCompile Include="VoleurWeapon.cpp" />
     <ClCompile Include="Warrior.cpp" />
@@ -163,11 +166,12 @@
     <ClInclude Include="Elf.h" />
     <ClInclude Include="Excalibure.h" />
     <ClInclude Include="Hawkeye_Bow.h" />
+    <ClInclude Include="Hello_Neighbor_Crowbar.h" />
     <ClInclude Include="Hidden_Blade_Aguilar.h" />
     <ClInclude Include="Hollow_Knight_Dagger.h" />
     <ClInclude Include="Humain.h" />
     <ClInclude Include="IngenieurWeapon.h" />
-    <ClInclude Include="Ingénieur.h" />
+    <ClInclude Include="Ingenieur.h" />
     <ClInclude Include="Iron_Man_Repulsor_Gauntlet.h" />
     <ClInclude Include="Legolas_Bow.h" />
     <ClInclude Include="Lightning_spell.h" />
@@ -177,6 +181,7 @@
     <ClInclude Include="Netherite_Sword.h" />
     <ClInclude Include="Orc.h" />
     <ClInclude Include="Smasher.h" />
+    <ClInclude Include="Type.h" />
     <ClInclude Include="Voleur.h" />
     <ClInclude Include="VoleurWeapon.h" />
     <ClInclude Include="Warrior.h" />

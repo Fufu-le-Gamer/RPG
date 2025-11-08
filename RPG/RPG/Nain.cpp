@@ -24,7 +24,7 @@ float Nain::PV()
 	return 50;
 }
 
-float Nain::MeleeBuff()
+float Nain::PhysicalBuff()
 {
 	return 0.5f;
 }

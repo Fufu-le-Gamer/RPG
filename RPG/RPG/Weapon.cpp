@@ -3,15 +3,10 @@
 
 SmasherWeapon::SmasherWeapon()
 {
-
+    TypeName = "Arme inconnue";
 }
 
-SmasherWeapon::~SmasherWeapon()
-{
-
-}
-
-void SmasherWeapon::DisplayType()
+void SmasherWeapon::DisplayTypeWeapon()
 {
     std::cout << "Weapons of " << TypeName << "\n";
 }

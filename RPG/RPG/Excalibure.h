@@ -1,12 +1,11 @@
 #pragma once
 #include "WarriorWeapon.h"
 
-class Excalibure : public WarriorWeapon{
+class Excalibure : public WarriorWeapon {//classe de l'arme Excalibure héritant de WarriorWeapon
 public:
+	//Constructeur de la classe Excalibure
 	Excalibure();
-
-	~Excalibure();
-
-	virtual float PhysicDamage() override;
+	//Méthode pour obtenir les dégâts physiques de l'arme Excalibure
+	float PhysicDamage() override;
 };
 

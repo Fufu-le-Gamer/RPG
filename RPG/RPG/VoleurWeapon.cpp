@@ -3,15 +3,12 @@
 VoleurWeapon::VoleurWeapon()
 {
 	TypeName = "Voleur";
-}
-
-VoleurWeapon::~VoleurWeapon()
-{
-
+	WeaponName = "Arme inconnue";
 }
 
 void VoleurWeapon::DisplayVoleurWeapon()
 {
-	std::cout << "Weapon choose: " << WeaponName << "\n";
-	std::cout << "Damage: " << PhysicDamage() << "\n";
+	std::cout << "Weapons of " << TypeName << "\n";
+	std::cout << "Weapon choose : " << WeaponName << "\n";
+	std::cout << "Damage : " << PhysicDamage() << "\n";
 }

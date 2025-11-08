@@ -1,12 +1,11 @@
 #pragma once
 #include "MageWeapon.h"
 
-class Lightning_spell : public MageWeapon{
-public:	
+class Lightning_spell : public MageWeapon {//classe du sort Lightning héritant de MageWeapon
+public:
+	//Constructeur de la classe Lightning_spell
 	Lightning_spell();
-
-	~Lightning_spell();
-
-	virtual float MagicDamage() override;
+	//Méthode pour obtenir les dégâts magiques du sort Lightning
+	float MagicDamage() override;
 };
 

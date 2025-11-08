@@ -24,7 +24,7 @@ float Orc::PV()
 	return 200;
 }
 
-float Orc::MeleeBuff()
+float Orc::PhysicalBuff()
 {
 	return 2;
 }
