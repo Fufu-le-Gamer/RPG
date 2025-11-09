@@ -1,12 +1,13 @@
 #include "Smasher.h"
 
-Smasher::Smasher()
+Smasher::Smasher()//Constructeur de la classe Smasher
 {
 
 }
-
+//Destructeur virtuel de la classe Smasher
 void Smasher::DisplayStats()
 {
+	//Affichage des statistiques du Smasher
     std::cout << "Combattant : " << SmasherName << "\n";
     std::cout << "PV : " << PV() << "\n";
     std::cout << "Physical Buff : " << PhysicalBuff() << "\n";

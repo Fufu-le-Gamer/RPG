@@ -23,22 +23,25 @@ Humain::~Humain()
 //Méthode pour obtenir les points de vie du Humain
 float Humain::PV()
 {
-	//Retourne les points de vie du Humain
+	//Retourne les points de vie de l'Humain
 	return 100;
 }
-
+//Méthode pour obtenir les buff physique de l'Humain
 float Humain::PhysicalBuff()
 {
+	//Retourne le buff physique de l'Humain
 	return 1.5f;
 }
-
+//Méthode pour obtenir le buff magique de l'Humain
 float Humain::MagicBuff()
 {
+	//Retourne le buff magique de l'Humain
 	return 1;
 }
-
+//Méthode pour obtenir le buff de défance de l'Humain
 float Humain::DefenceBuff()
 {
+	//Retourne le buff de défance de l'Humain
 	return 1;
 }
 
